@@ -30,7 +30,7 @@ public class extent_report {
 	@Test
 	public void extentReportsDemo() throws Exception
 	{
-	System.setProperty("webdriver.chrome.driver", "C:/Users/Shree/Desktop/jar/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:/Users/Shree/Desktop/jar/chromedriver_win32/chromedriver.exe");
 	 driver = new ChromeDriver();
 	driver.get("https://www.google.co.in");
 	if(driver.getTitle().equals("Google"))

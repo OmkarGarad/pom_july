@@ -13,7 +13,7 @@ public class Orange_hrm_test_base {
 		
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("--remote-allow-origins=*");
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Shree/Desktop/jar/chromedriver_win32/chromedriver_win32_113/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Users//Shree//Desktop//jar//chromedriver_win32//chromedriver.exe");
 		 driver = new ChromeDriver(opt);
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();

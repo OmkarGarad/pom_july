@@ -10,6 +10,7 @@ import com.pages.amazon_login_page;
 import data_provider.TestBase;
 
 
+
 public class amazon_login_test extends TestBase {
 	
 	WebDriver driver;
@@ -21,7 +22,6 @@ public class amazon_login_test extends TestBase {
 		
 	driver= TestBase.amazon_lauch_url(browser);
 	System.out.println("launch");
-	
 	
 	
  }
